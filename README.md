@@ -6,7 +6,7 @@ This project is a backend RESTful API service for a technical coding test at TKT
 
 The project is backend application that uses [Django REST Framework](https://www.django-rest-framework.org/), [PostgreSQL](https://www.postgresql.org/) to serve APIs.
 
-The APIs serve data about entreprises and there details and stats.
+The APIs serve data about entreprises, there details and stats.
 
 To simulate and test the project, data samples were provided in a JSON file named **initial_data.json**.
 
@@ -14,7 +14,7 @@ To simulate and test the project, data samples were provided in a JSON file name
 
 The provided JSON file consists of 1000 entries. Data are fictitious not real. There are no null values and each entry can be like the following example:
 
-```
+```json
 {"name":"Reinger Inc","sector":"Services","siren":135694027,"results":[{"ca":2077357,"margin":497351,"ebitda":65952,"loss":858474,"year":2017},{"ca":432070,"margin":427778,"ebitda":290433,"loss":8023406,"year":2016}]}
 ```
 
