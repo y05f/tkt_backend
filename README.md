@@ -15,7 +15,16 @@ To simulate and test the project, data samples were provided in a JSON file name
 The provided JSON file consists of 1000 entries. Data are fictitious not real. There are no null values and each entry can be like the following example:
 
 ```json
-{"name":"Reinger Inc","sector":"Services","siren":135694027,"results":[{"ca":2077357,"margin":497351,"ebitda":65952,"loss":858474,"year":2017},{"ca":432070,"margin":427778,"ebitda":290433,"loss":8023406,"year":2016}]}
+{
+    "name":"Reinger Inc",
+    "sector":"Services",
+    "siren":135694027,
+    "results":
+        [
+            {"ca":2077357, "margin":497351, "ebitda":65952, "loss":858474, "year":2017},
+            {"ca":432070, "margin":427778, "ebitda":290433, "loss":8023406, "year":2016}
+        ]
+}
 ```
 
 The schema used in the poject follows the same stracture of the JSON file while respecting some constraints. The database schema contains two tables Entreprise and Result. An Entreprise instance can have multiple Results instances.
