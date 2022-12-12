@@ -4,7 +4,9 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 
 urlpatterns = [
     path(
-        "entreprise/", views.EntrepriseListCreate.as_view(), name="list-post-entreprise"
+        "entreprise/",
+        views.EntrepriseListCreate.as_view(),
+        name="list-create-entreprise",
     ),
     re_path(
         r"^entreprise/(?P<siren>[0-9]{9})/$",
