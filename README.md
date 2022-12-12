@@ -112,7 +112,7 @@ The script behind this command is located in the management folder in entreprise
 docker-compose exec web  python manage.py test
 ```
 
-The testing phasse consists of 6 tests of all the endpoints where the file **test_data.json** is used as testing database.
+The testing phasse consists of 8 tests of all the endpoints where the file **test_data.json** is used as testing database.
 
 ## How to read and explore the project
 
