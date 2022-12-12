@@ -81,7 +81,7 @@ The project API services are :
 
 ```bash
 git clone https://github.com/y05f/tkt_backend.git
-cd lokimo_backend
+cd tkt_backend
 ```
 
 - Start docker then build the image and run the container:
